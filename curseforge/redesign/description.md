@@ -8,20 +8,22 @@
 
 ## 📖 ABOUT
 
-**Mo' Enchantments Loot Compat** is a small fix for **[Mo' Enchantments](https://www.curseforge.com/minecraft/mc-mods/mo-enchantments)** on NeoForge 1.21.1. Mo' Enchantments only lists its enchantments for villager trades, so you never see them in the enchanting table or on enchanted books in loot. 📚
+**Mo' Enchantments Loot Compat** is a small fix for **[Mo' Enchantments](https://www.curseforge.com/minecraft/mc-mods/mo-enchantments)** on NeoForge. Mo' Enchantments only lists its enchantments for villager trades, so you never see them in the enchanting table or on enchanted books in loot. 📚
 
 This mod adds every Mo' Enchantments enchantment to the vanilla tags for the enchanting table, random loot and trades. It also clears Mo' Enchantments' treasure list, so the ten former treasure enchantments, such as Rebirth and Homing, show up in the table too. ✨
 
 It is only data: a datapack inside a jar, with no code and no config. Drop it in next to Mo' Enchantments and they work everywhere. 🧩
 
+It runs on **Minecraft 1.21.1, 1.21.8 and 26.1.2**, the versions Mo' Enchantments is released for on NeoForge, with a matching file for each version. 🗂️
+
 ![divider](https://raw.githubusercontent.com/Renzolc/mo-enchantments-loot-compat/main/curseforge/redesign/divider-mo-enchantments-loot-compat.png)
 
 ## 📚 FEATURES
 
-- 🔮 **Enchanting table:** All 41 Mo' Enchantments enchantments join `#minecraft:non_treasure`, so the table can roll them.
+- 🔮 **Enchanting table:** All 41 Mo' Enchantments enchantments (38 on 1.21.8) join `#minecraft:non_treasure`, so the table can roll them.
 - 🎁 **Loot:** They join `#minecraft:on_random_loot`, so enchanted books and gear in chests, fishing and other loot can carry them.
 - 💰 **Trades kept:** They stay in `#minecraft:tradeable`, so librarians still sell them.
-- 🔓 **No more treasure-only:** `#mo_enchantments:treasure_entries` is emptied, so Rebirth, Stunning, Radiance, Lava Walker, Execution, Sensing, Padding, Homing, Recall and Chaining are no longer locked out of the table.
+- 🔓 **No more treasure-only:** `#mo_enchantments:treasure_entries` is emptied, so Rebirth, Stunning, Radiance, Lava Walker, Execution, Sensing, Padding, Homing, Recall and Chaining are no longer locked out of the table. Mo' Enchantments for 1.21.8 doesn't have Homing, Recall or Reload, so that file lists the 38 it has.
 - 🧾 **Additive tags:** The vanilla tags are added to, never replaced, so other mods' enchantments are left alone.
 
 ![divider](https://raw.githubusercontent.com/Renzolc/mo-enchantments-loot-compat/main/curseforge/redesign/divider-mo-enchantments-loot-compat.png)
@@ -36,9 +38,13 @@ It is only data: a datapack inside a jar, with no code and no config. Drop it in
 
 ## 📦 INSTALLATION
 
-**⏩ INSTALL ON BOTH CLIENT AND SERVER (NEOFORGE 1.21.1)**
+**⏩ INSTALL ON BOTH CLIENT AND SERVER (NEOFORGE)**
+
+**⏩ MINECRAFT 1.21.1, 1.21.8 AND 26.1.2. PICK THE FILE FOR YOUR VERSION**
 
 **⏩ REQUIRES [MO' ENCHANTMENTS](https://www.curseforge.com/minecraft/mc-mods/mo-enchantments) 1.0 OR NEWER**
+
+Only the Minecraft 1.21.1 build has been thoroughly tested. If you find a bug on another version, please leave a comment with the Minecraft version, a screenshot, and a short description of the bug. 🐞
 
 Restart the game or start a new world session after installing so the tags reload.
 

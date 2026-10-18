@@ -1,6 +1,6 @@
 # Mo' Enchantments Loot Compat (1.0.0)
 
-NeoForge 1.21.1 datapack-in-a-jar for **Mo' Enchantments**.
+NeoForge datapack-in-a-jar for **Mo' Enchantments**. Minecraft 1.21.1 is on `main`; ports for 1.21.8 and 26.1.2 are on the `mc/1.21.8` and `mc/26.1.2` branches.
 
 ## Problem
 Mo' Enchantments registers its enchantments for villager trades (`#minecraft:tradeable`) but never adds them to:

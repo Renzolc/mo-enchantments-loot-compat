@@ -14,8 +14,8 @@ Adds every Mo' Enchantments enchantment to:
 Also clears Mo' Enchantments' treasure-only lock so enchants like Rebirth / Homing aren't stuck as treasure-only.
 
 ### Requirements
-- Minecraft **1.21.1**
-- **NeoForge** 21.1.x
+- Minecraft **1.21.1**, **1.21.8** or **26.1.2** (pick the file for your version)
+- **NeoForge** for that version
 - **Mo' Enchantments**
 
 ### License
