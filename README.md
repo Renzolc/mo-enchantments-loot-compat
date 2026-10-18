@@ -1,6 +1,6 @@
-# Mo' Enchantments Loot Compat (1.0.0)
+# Mo' Enchantments Loot Compat (1.0.0+mc26.1.2)
 
-NeoForge 1.21.1 datapack-in-a-jar for **Mo' Enchantments**.
+NeoForge 26.1.2 datapack-in-a-jar for **Mo' Enchantments**.
 
 ## Problem
 Mo' Enchantments registers its enchantments for villager trades (`#minecraft:tradeable`) but never adds them to:
@@ -18,4 +18,4 @@ This mod adds **every** Mo' Enchantments enchant to:
 and clears `#mo_enchantments:treasure_entries` so formerly "treasure" ones (Rebirth, Homing, etc.) are not locked out of the table.
 
 ## Install
-Drop `mo_enchantments_loot_compat-1.0.0.jar` in your `mods` folder next to Mo' Enchantments. Restart / create a new world session so tags reload.
+Drop `mo_enchantments_loot_compat-1.0.0-mc26.1.2.jar` in your `mods` folder next to Mo' Enchantments. Restart / create a new world session so tags reload.
