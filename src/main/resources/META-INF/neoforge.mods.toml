@@ -4,7 +4,7 @@ license="MIT"
 
 [[mods]]
 modId="mo_enchantments_loot_compat"
-version="1.0.0"
+version="1.0.0+mc1.21.8"
 displayName="Mo' Enchantments Loot Compat"
 authors="Renzo"
 description='''Adds Mo' Enchantments to the enchanting table and random loot pools. Upstream only registers them for villager trades.'''
@@ -12,14 +12,14 @@ description='''Adds Mo' Enchantments to the enchanting table and random loot poo
 [[dependencies.mo_enchantments_loot_compat]]
     modId="neoforge"
     type="required"
-    versionRange="[21,)"
+    versionRange="[21.8,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.mo_enchantments_loot_compat]]
     modId="minecraft"
     type="required"
-    versionRange="[1.21.1]"
+    versionRange="[1.21.8]"
     ordering="NONE"
     side="BOTH"
 
